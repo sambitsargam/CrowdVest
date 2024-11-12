@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# CrowdVest - Decentralized Crowdfunding with Vesting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CrowdVest is a decentralized crowdfunding platform built on Bitcoin using the Glittr SDK. The platform allows project creators to raise funds from contributors using tokenized assets, with built-in vesting to ensure long-term commitment. It leverages Bitcoin's blockchain for secure, transparent, and efficient fundraising, while ensuring that contributors' funds are vested over time.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Crowdfunding**: Allows users to raise funds from multiple contributors.
+- **Vesting**: Tokens are unlocked over time, incentivizing long-term commitment from contributors.
+- **Decentralized**: Built on the Bitcoin blockchain using the Glittr SDK, ensuring transparency and security.
+- **Smart Contracts**: Interact with Bitcoin’s ecosystem through smart contracts, assets, and transaction broadcasting.
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Glittr SDK**: A client-side library that provides seamless access to the Glittr infrastructure, enabling smart contract deployment and interaction with Bitcoin’s ecosystem.
+- **Bitcoin**: Utilizes Bitcoin for secure and decentralized transactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/sambitsargam/CrowdVest.git
+    cd CrowdVest
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the project:
 
-### `npm run eject`
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Open the app in your browser at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Smart Contract
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The CrowdVest contract is built using the Glittr SDK and facilitates the creation of a crowdfunding campaign with tokenized contributions and vesting. It ensures the transparency and security of all transactions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. **Create a Campaign**: Project creators can set up a campaign with details like the target amount, vesting schedule, and contribution options.
+2. **Contribute to a Campaign**: Contributors can send Bitcoin to the campaign and receive tokens representing their contribution.
+3. **Vesting**: Tokens are vested over time, and contributors can claim their tokens according to the defined vesting schedule.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The frontend is built using React.js and connects to the Glittr SDK for blockchain interactions. Users can easily interact with the platform via a user-friendly interface.
 
-### Code Splitting
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to fork the repository, create issues, and submit pull requests. All contributions are welcome!
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Glittr SDK**: For providing the tools to seamlessly integrate with Bitcoin's blockchain.
+- **Bitcoin**: For being the foundation of the decentralized network.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
